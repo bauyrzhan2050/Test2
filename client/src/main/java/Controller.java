@@ -123,6 +123,7 @@ public class Controller implements Initializable {
         } catch (IOException e) {
             Alert alert = new Alert(Alert.AlertType.ERROR, "Unable to send msg", ButtonType.OK);
             alert.showAndWait();
+            System.out.println();
         }
     }
 
@@ -136,6 +137,7 @@ public class Controller implements Initializable {
             e.printStackTrace();
         }
     }
+
 
 
 
